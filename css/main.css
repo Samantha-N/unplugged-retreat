@@ -87,7 +87,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+   .content-wrapper {
+    width: 89%;
+  }
+  
 /*--------Base header - Footer Styles --------*/
 
 header, 
@@ -99,6 +102,10 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -106,17 +113,27 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+.header-divider {
+  width: 100%;
+}
 
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;  
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 
@@ -143,7 +160,6 @@ footer .social-icons {
 
 
 
-
 /*-------- Homepage index.html --------*/
 
 /* Main */
@@ -153,6 +169,7 @@ footer .social-icons {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 0 40px 0 21px;
 }
 
 /* Aside */
@@ -162,6 +179,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 0 69px 0 21px;
 }
 
 
@@ -174,13 +192,26 @@ aside {
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 55%;
+
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 0 86px 0 81px;
 }
 
+.forms input {
+  padding: 
+}
+
+h2 {
+  padding: 0 45px 0 22px;
+}
 
  
 /*--------Reviews-------*/
@@ -190,9 +221,17 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 0 22px 0 22px;
 
 }
 
+.reviews h3 {
+  width: 
+}
+
+p {
+  padding: 0 22px 0 22px; 
+}
 
 /*-------- FAQ index.html --------*/
 
