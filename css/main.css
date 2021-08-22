@@ -263,7 +263,6 @@ p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
 .faq .content-wrapper {
@@ -271,9 +270,16 @@ p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  width: 60%;
 }
 
+.faq h2 {
+ margin-bottom: 40px;
+}
+
+.faq-content {
+margin-bottom: 50px;
+}
 
 
 /*-------- ABOUT index.html --------*/
@@ -285,7 +291,6 @@ p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
 .contact-section {
@@ -293,10 +298,11 @@ p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
-
+.contact-content p {
+  margin: 0;
+}
 
 
 /* ==========================================================================
