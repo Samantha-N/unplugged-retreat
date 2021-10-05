@@ -478,20 +478,21 @@ footer .copyright {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
 .mission-content p {
-  width: 612px;
+  width: 45%;
 }
 
 .contact-section .content-wrapper h2 {
-  width: 507px;
+  width: 80%;
 }
 
 .contact-content {
   display: flex;
-  justify-content:
-  align-items:
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 
@@ -505,7 +506,7 @@ FAQ Page
 }
 
 .faq-content {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .faq h2 {
