@@ -132,6 +132,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  list-style-type: none;
 }
 
 footer {
@@ -139,6 +140,8 @@ footer {
 }
 
 footer p {
+  display: flex;
+  justify-content: center;
   margin: 0;
 }
 
@@ -374,15 +377,14 @@ margin-bottom: 50px;
 
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
-      /* General Styles */
 
+  /* General Styles */
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
   }
 
- /* Header */
- 
+ /* Header */ 
  header { 
   justify-content: space-around;
   padding: 33px 0;
@@ -422,12 +424,11 @@ aside .content-wrapper .form {
 }
 
 /* Features */
-
 .features article {
   display: flex;
-  justify-content: space-between ;
+  justify-content: center;
   align-items: center;
-  flex-flow: column;
+  flex-flow: column wrap;
   flex-basis: 50%;
 
 }
@@ -455,7 +456,7 @@ footer .content-wrapper {
 
 .footer-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items:center;
 }
 
@@ -466,6 +467,52 @@ footer .contact {
 footer .copyright {
     width: 100%;
 } 
+
+
+/*===========================================================================
+ About Page
+ ============================================================================ */
+
+
+ .mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mission-content p {
+  width: 612px;
+}
+
+.contact-section .content-wrapper h2 {
+  width: 507px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content:
+  align-items:
+}
+
+
+
+/*==============================================================================
+FAQ Page
+================================================================================ */
+
+.faq .content-wrapper {
+  justify-content: space-between;
+}
+
+.faq-content {
+  flex-basis: 40%;
+}
+
+.faq h2 {
+  width: 100%;
+}
+
+
 
 
 /******** About Page ********/
