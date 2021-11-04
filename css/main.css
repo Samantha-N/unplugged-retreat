@@ -485,22 +485,18 @@ footer .copyright {
   width: 45%;
 }
 
-.contact-section content-wrapper  {
-  display: flex;
+.contact-section .content-wrapper h2 {
   width: 80%;
 }
 
-.content-contact  {
+.contact-content  {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.address p {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
+
 
 
 
