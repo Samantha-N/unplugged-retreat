@@ -145,6 +145,7 @@ footer p {
   margin: 0;
 }
 
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
@@ -434,7 +435,7 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-description {
-    width: 50%;
+    width: 62%;
 }
 
 /* Reviews */
@@ -496,17 +497,13 @@ footer .copyright {
 }
 
 
-
-
-
-
-
-
-
-
 /*==============================================================================
 FAQ Page
 ================================================================================ */
+
+header {
+  padding: 15px 0;
+}
 
 .faq .content-wrapper {
   justify-content: space-between;
@@ -522,11 +519,63 @@ FAQ Page
 
 
 
-
-/******** About Page ********/
-
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
+}
+
+ /* General Styles */
+ .content-wrapper {
+  min-width: 960px; 
+}
+
+.hero-area h1  {
+  width: 60%;
+}
+
+aside .content-wrapper {
+  justify-content: space-around;
+
+}
+
+/* Aside */
+aside .content-wrapper {
+  justify-content: space-evenly;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 320px;
+}
+
+/* Features */
+.features h2 {
+ width: 868px;
+}
+
+.features article {
+  flex-basis: 300px;
+}
+
+/* Reviews */ 
+.reviews article div {
+  width: 450px;
+}
+
+/* ==========================================================================
+About Page
+========================================================================== */
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 950px;
+}
+
+/* ==========================================================================
+FAQ Page
+========================================================================== */
+.faq h2 {
+  width: 100%;
+}
+
 }
 
 /* ==========================================================================
