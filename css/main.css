@@ -83,23 +83,104 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
+
+
+   /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-   .content-wrapper {
-    width: 90%;
-    margin: 50px 0;
-  }
+/* General Styles */
+ 
+html {
+	font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 1em; 
+}
+ 
+ul, 
+ol {
+ list-style: none;
+}
+ 
+a {
+  color: #e2e3ed;
+	background color: #202322;
+  font-family: Open sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  margin: 20px 0;
+}
+ 
+p {
+	font-size: 1.125em;
+  line-height: 1.25em;
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+ font-style: normal;
+}
+ 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
   
 /*--------Base header - Footer Styles --------*/
 
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 header, 
 footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: row wrap;  
 }
 
 header {
@@ -137,6 +218,7 @@ header nav ul {
 
 footer {
   flex-direction: column;
+  
 }
 
 footer p {
@@ -185,6 +267,7 @@ footer .copy-right {
 
 aside {
   display: flex;
+  background-color: #527158;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
@@ -528,37 +611,34 @@ header {
   min-width: 960px; 
 }
 
+/* Hero */
 .hero-area h1  {
   width: 60%;
 }
 
-aside .content-wrapper {
-  justify-content: space-around;
-
-}
 
 /* Aside */
 aside .content-wrapper {
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 320px;
+  width: 30%;
 }
 
 /* Features */
 .features h2 {
- width: 868px;
+ width: 90%;
 }
 
 .features article {
-  flex-basis: 300px;
+  flex-basis: 33%;
 }
 
 /* Reviews */ 
 .reviews article div {
-  width: 450px;
+  width: 42%;
 }
 
 /* ==========================================================================
@@ -566,7 +646,7 @@ About Page
 ========================================================================== */
 .mission h2,
 .contact-section .content-wrapper h2 {
-  width: 950px;
+  width: 95%;
 }
 
 /* ==========================================================================
