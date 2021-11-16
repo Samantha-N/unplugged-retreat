@@ -97,6 +97,8 @@ html {
 body {
   font-family: 'Open Sans', sans-serif; 
   font-size: 1em; 
+  text-align: left;
+  color: #e2e3ed;
 }
  
 ul, 
@@ -106,37 +108,31 @@ ol {
  
 a {
   color: #e2e3ed;
-	background color: #202322;
-  font-family: Open sans-serif;
-  font-weight: bold;
   text-decoration: none;
 }
  
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.25em;
+  font-size: 1.875em;
+  font-weight: 500;
+  color: #e2e3ed;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
   margin: 20px 0;
+  color: #e2e3ed;
 }
  
 p {
-	font-size: 1.125em;
-  line-height: 1.25em;
+	font-size: .875em;
+  line-height: 1.285em;
+  color: #c9ccd4;
 }
- 
-img {
- 
-}
- 
-figure {
- 
-}
- 
+  
 address {
  font-style: normal;
 }
@@ -147,32 +143,6 @@ address {
 }
   
 /*--------Base header - Footer Styles --------*/
-
-aside .form {
-  margin-top: 30px;
-}
- 
-input[type=text] {
-  box-sizing: border-box;
-  width: 100%;
-  color: #2a423a;
-  font-style: italic;
-  padding: 1em;
-}
- 
-input[type=button] {
-  width: 100%;
-  padding: 20px 0;
-  margin-top: 20px;
-  background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1.125em;
-  color: #e2e3ed;
-  border: none;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 header, 
 footer {
@@ -199,6 +169,7 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  background-color: #3a3a3a;
 }
 
 header nav {
@@ -207,23 +178,28 @@ header nav {
   align-items: center;  
   flex-flow: row wrap;
   width: 60%;
+  font-weight: 700;
+  text-transform: uppercase; 
+  font-size: 1.125em;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  list-style-type: none;
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 footer {
+  text-align: center;
   flex-direction: column;
   
 }
 
 footer p {
-  display: flex;
-  justify-content: center;
   margin: 0;
 }
 
@@ -263,6 +239,14 @@ footer .copy-right {
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  font-weight: 500;
+  color: #e2e3ed;
+  line-height: 1.62em;
+}
+
 /* Aside */
 
 aside {
@@ -273,6 +257,31 @@ aside {
   flex-flow: row wrap;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* Features */
 
@@ -299,6 +308,7 @@ aside {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
  
@@ -308,10 +318,12 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1em;
 }
 
 .reviews h3 {
@@ -328,6 +340,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .contact-section {
@@ -335,6 +348,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -351,6 +365,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -363,10 +378,15 @@ aside {
 
 .faq h2 {
  margin-bottom: 40px;
+ line-height: 1em;
 }
 
 .faq-content {
 margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 1.333em;
 }
 
 
@@ -468,6 +488,15 @@ margin-bottom: 50px;
     margin: 100px 0;
   }
 
+  h2 {
+
+  }
+
+  h3 {
+
+  }
+
+
  /* Header */ 
  header { 
   justify-content: space-around;
@@ -493,6 +522,10 @@ header nav ul {
 
 /* Hero Area */
 
+.hero-area {
+  
+}
+
 /* Aside */
 aside .content-wrapper {
     margin: 50px 0;
@@ -505,6 +538,7 @@ aside .content-wrapper .form-description,
 aside .content-wrapper .form {        
     width: 40%;        
     margin: 0;
+    background: url('/img/jake-melara-30679-unsplash.jpg');
 }
 
 /* Features */
@@ -528,8 +562,16 @@ aside .content-wrapper .form {
 
 }
 
+.reviews h2 {
+
+}
+
 .reviews article div {
     width: 49%;       
+}
+
+.reviews h3 {
+
 }
 
 /* Footer */
@@ -542,10 +584,19 @@ footer .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items:center;
+  flex-direction: ;
 }
 
 footer .contact {
     margin-bottom: 0;
+}
+
+footer h4 {
+
+}
+
+footer p {
+
 }
 
 footer .copyright {
@@ -579,6 +630,9 @@ footer .copyright {
   align-items: flex-start;
 }
 
+.contact-content h4 {
+
+}
 
 /*==============================================================================
 FAQ Page
@@ -600,20 +654,39 @@ header {
   width: 100%;
 }
 
+.faq h4,
+.faq p {
 
-
+}
+}
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
-}
 
- /* General Styles */
+  header {
+    padding: 
+  }
+
  .content-wrapper {
   min-width: 960px; 
+}
+
+h2 {
+
+}
+
+h3,
+h4 {
+
+}
+
+p {
+
 }
 
 /* Hero */
 .hero-area h1  {
   width: 60%;
+  font-size: ;
 }
 
 
@@ -641,6 +714,14 @@ aside .content-wrapper .form {
   width: 42%;
 }
 
+.reviews h2 {
+   
+}
+
+footer h4 {
+
+}
+}
 /* ==========================================================================
 About Page
 ========================================================================== */
@@ -654,8 +735,14 @@ FAQ Page
 ========================================================================== */
 .faq h2 {
   width: 100%;
+  font-size: ;
 }
 
+.faq h4,
+.faq p {
+  font-size:
+  line-height: 
+}
 }
 
 /* ==========================================================================
