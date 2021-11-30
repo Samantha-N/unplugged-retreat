@@ -121,7 +121,7 @@ h2 {
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
+  font-size: 1.125em;
   font-weight: 500;
   margin: 20px 0;
   color: #e2e3ed;
@@ -240,11 +240,11 @@ footer .copy-right {
 }
 
 .hero-area h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',Helvetica, Arial, sans-serif;
   font-size: 2.25em;
   font-weight: 500;
   color: #e2e3ed;
-  line-height: 1.62em;
+  line-height: 1.2em;
 }
 
 /* Aside */
@@ -489,11 +489,14 @@ margin-bottom: 50px;
   }
 
   h2 {
-
+    font-size: 2.25em;
+    line-height: 1.333em;
+    
   }
 
   h3 {
-
+    font-size: 1.5em;
+    line-height: 1.25em;
   }
 
 
@@ -507,6 +510,9 @@ header .content-wrapper {
     width: 100%;
     justify-content: space-between;
 }
+ header figure {
+   width: 30%;
+ }
 
 header nav {
     width: 20%;
@@ -522,8 +528,10 @@ header nav ul {
 
 /* Hero Area */
 
-.hero-area {
-  
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0; 
 }
 
 /* Aside */
@@ -531,24 +539,27 @@ aside .content-wrapper {
     margin: 50px 0;
     display: flex; 
     justify-content: space-between;
-    flex-flow: row-wrap;
+    flex-flow: row wrap;
 }
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {        
     width: 40%;        
     margin: 0;
-    background: url('/img/jake-melara-30679-unsplash.jpg');
 }
 
 /* Features */
+
+.features h2 {
+  margin-bottom: 20px;
+}
+
 .features article {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
   flex-basis: 50%;
-
 }
 
 .features .features-item-description {
@@ -563,7 +574,7 @@ aside .content-wrapper .form {
 }
 
 .reviews h2 {
-
+  width: 85%;
 }
 
 .reviews article div {
@@ -571,7 +582,8 @@ aside .content-wrapper .form {
 }
 
 .reviews h3 {
-
+  width: 75%;
+  margin: 0;
 }
 
 /* Footer */
@@ -580,11 +592,11 @@ footer .content-wrapper {
     margin: 100px 0;
 }
 
-.footer-content {
+.footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items:center;
-  flex-direction: ;
+  flex-direction: row;
 }
 
 footer .contact {
@@ -592,10 +604,12 @@ footer .contact {
 }
 
 footer h4 {
-
+  font-size: 1.5em;
+  margin-bottom: 40px;
 }
 
 footer p {
+  line-height: 1.285;
 
 }
 
@@ -631,7 +645,7 @@ footer .copyright {
 }
 
 .contact-content h4 {
-
+  font-size: 1.5em;
 }
 
 /*==============================================================================
@@ -656,7 +670,8 @@ header {
 
 .faq h4,
 .faq p {
-
+  font-size: .875em;
+  line-height: 1.125em;  
 }
 }
 @media only screen and (min-width: 1200px) {
