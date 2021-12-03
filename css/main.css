@@ -589,12 +589,12 @@ aside .content-wrapper .form {
 
 /* Footer */
 footer .content-wrapper {
-    display: flex;
     width: 65%;
     margin: 100px 0;
 }
 
  footer .footer-content {
+  display: flex;
   justify-content: space-between;
   align-items:center;
   flex-direction: row;
