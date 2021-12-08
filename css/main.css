@@ -207,6 +207,7 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
+  padding: 20px;
 }
 
 footer {
@@ -541,7 +542,8 @@ header .content-wrapper {
     width: 100%;
     justify-content: space-between;
 }
- header figure {
+
+header figure {
    width: 30%;
  }
 
@@ -582,7 +584,7 @@ aside .content-wrapper .form {
 /* Features */
 
 .features h2 {
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
 }
 
 .features article {
@@ -608,7 +610,8 @@ aside .content-wrapper .form {
   width: 85%;
 }
 
-.reviews article div {
+.reviews article div, 
+.reviews article figure {
     width: 49%;       
 }
 
@@ -695,14 +698,18 @@ FAQ Page
 
 .faq h2 {
   width: 100%;
+  margin-top: 55px;
 }
 
 .faq h4,
 .faq p {
   font-size: .875em;
   line-height: 1.125em;  
+  width: 300px;
 }
 }
+
+
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
 
