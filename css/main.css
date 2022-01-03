@@ -584,6 +584,10 @@
   
   /* Hero Area */
   
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -677,7 +681,7 @@
   
   footer .social-icons {
     width: 12.5em;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   
   
