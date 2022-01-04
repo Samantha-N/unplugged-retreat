@@ -209,7 +209,7 @@
   
   header nav ul li {
     font-size: 1.125em;
-    padding: 20px;
+    padding: 20px, 10px;
   }
   
   footer {
@@ -689,6 +689,7 @@
    About Page
    ============================================================================ */
   
+   
   
    .mission-content {
     display: flex;
@@ -824,19 +825,17 @@
   ========================================================================== */
   .map figure {
     padding-bottom: 37.75%;
-
   }
   
   .mission h2,
   .contact-section .content-wrapper h2 {
-    width: 95%;
+    width: 100%;
     font-size: 3em;
   }
 
   .contact-content {
-      font-size: 1.875em; 
+    font-size: 1.875em; 
   }
-
 
   
   /* ==========================================================================
